@@ -1,0 +1,148 @@
+{
+    margin: 0;
+    box-sizing:border-box;
+    padding: 0;
+}
+
+    body{
+        background-color: #220002; 
+        color:#ffffff; 
+    }
+    nav .onlyone{
+        display: flex;
+    }
+    nav .logoimage{
+        margin:opx 30px;
+    }
+    nav .actions{
+        display:flex;
+        padding:0 20px;
+        justify-content: space-between;
+        margin-left: 70%;
+        
+    }
+    nav .sign-in:hover{
+        background-color: rgb(249, 243, 235);
+        color:black;
+        transition: 5s;
+    }
+    nav .join-now:hover{
+        background-color: antiquewhite;
+        color: #f60919;
+        padding: 0 25px;
+        transition: 5s;
+        
+    }
+    nav .join-now:hover{
+        background-color: rgb(16, 48, 208);
+        color: #f60919;
+        padding: 0 25px;
+        transition: 5s;
+        
+    }
+
+    nav .sign-in{
+        background-color: red;
+        padding: 7px 30px;
+        
+        color: aliceblue;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        margin: 0px 30px;
+    }
+    nav .join-now{
+        padding: 7px 20px;
+        color: black;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+    }
+
+
+.banner
+{
+    background: linear-gradient(90deg, #181818 0, hsla(0, 0%, 9%, .987) 1.62%, hsla(0, 0%, 9%, .951) 3.1%, hsla(0, 0%, 9%, .896) 4.5%, hsla(0, 0%, 9%, .825) 5.8%, hsla(0, 0%, 9%, .741) 7.06%, hsla(0, 0%, 9%, .648) 8.24%, hsla(0, 0%, 9%, .55) 9.42%, hsla(0, 0%, 9%, .45) 10.58%, hsla(0, 0%, 9%, .352) 11.76%, hsla(0, 0%, 9%, .259) 12.94%, hsla(0, 0%, 9%, .175) 14.2%, hsla(0, 0%, 9%, .104) 15.5%, hsla(0, 0%, 9%, .049) 16.9%, hsla(0, 0%, 9%, .013) 18.38%, hsla(0, 0%, 9%, 0)), url("https://occ-0-4857-2186.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaJJIdyKMNvEcWhAtI5Xk12MQLY8DLxAkM2k8unVHyRordNL9Jn726cLoEmP_DAn44vwE3_l9dWTpDQTvmzsk6REyj4veXm9bvQ8.jpg?r=e19");
+    background-size:cover;
+    background-position:center center;
+    max-width:100%;
+    background-repeat:no-repeat;
+    height: 600px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.banner h1{
+    font-size: medium;
+}
+
+.logo-containerlogo-other{
+    position: relative;
+    width: 90%;
+    margin-left: 0%;
+    margin-right: 10%;
+    size:20px;
+}
+.bannercontent .bannertitle .img
+{ 
+    
+    object-fit: logo-containerlogo-other 
+    position: relative;
+    width: 90%;
+}
+.bannercontent{
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 10%;
+    padding-right: 10px;
+}
+.bannercontent .bannertitle h1{
+    font-size: 25px;
+    padding: 10px 0px;
+}
+.bannercontent .bannertitle h3{
+    font-size: 30px ;
+    font-weight:400;
+    color: #a3a3a3;
+}
+.bannercontent .bannertitle span{
+    padding: 10px;
+
+}
+.box1{
+    border:solid,1px,#a3a3a3;
+    padding: 4px 8px;
+}
+
+.logoimage{
+    max-width: 50%;
+    height: 50%;
+}
+footer{
+    padding:50px 4% 10px;
+    color: #666;
+    
+}
+footer h1{
+    font-size: 1.2rem;
+    font-weight: 500 ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0  0 30px 0;
+    color: #666;
+}
+footer .row{
+    display: flex;
+    align-items: start;
+    padding: 10px 0px;
+}
+footer .col{
+    margin: 10px 50px;
+}
+footer .col a{
+    text-decoration: dashed white;
+    color: #666;
+    font-size: 0.8rem;
+    padding: 8px;
+    display: block;
+}
+footer button{
+    
+}
