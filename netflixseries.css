@@ -1,0 +1,113 @@
+*{
+margin:0px;
+padding:0px;
+border-left-style: none;
+}
+
+body{
+background-color: #191818;
+
+}
+
+.sign-up{
+    margin-left:70%;
+    display: flex;
+    position: fixed;
+    padding-bottom: 50px;
+}
+.Join-now{
+    background-color: rgb(240, 20, 20);
+    padding:10px 30px;
+    border-radius: 30px;
+    justify-content: space-between;
+    margin-right: 20px;
+    
+
+}
+
+.sign-up .Sign-In{
+    padding:10px 30px;
+    border-radius: 30px;
+    justify-content: space-between;
+    margin-right: 20px;
+    
+}
+
+
+.banner{
+    display: flex;
+    
+}
+
+
+.header .content{
+    color:aliceblue;
+    margin-top:40px;
+}
+.content h1{
+    font-size: 39px;
+    margin-bottom: 17px;
+    font-weight: 200px;
+
+}
+
+.content #one{
+    color:dimgrey;
+    margin-bottom: 17px;
+}
+.content p{
+    margin-right: 70%;
+    margin-bottom: 17px;
+}
+.content h3 span{
+        color:dimgrey;
+}
+
+
+.ending-box{
+    margin-top:18%;
+    padding:10px  20px ;
+    background-color:rgb(39, 36, 36);
+    color:white;
+    display: flex;
+    margin-right: 30%;
+    box-shadow: 40px;
+
+
+
+}
+.ending-box img{
+    margin-right: 20px;
+}
+
+.ending-box h3{
+         margin-right: 60px;
+         margin-top: 20px;
+}
+.ending-box .Join-now{
+    background-color: red;
+    
+    border: 2px solid red;
+    justify-content: end;
+    margin-left: 50%;
+    color: azure;
+}
+
+.ending{
+    margin-top: 6%;
+}
+.ending  p{
+    text-align: center;
+    color:rgb(174, 169, 169);
+    padding:20px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .screensetting{
+       width:100px;
+    }
+    
+   }
+
